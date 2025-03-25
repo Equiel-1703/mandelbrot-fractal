@@ -21,8 +21,7 @@ This project contains two parallel implementations of a Mandelbrot fractal gener
 ## Requirements
 
 - A C++ compiler with OpenMP support (e.g., GCC or Clang).
-- NVIDIA GPU and CUDA Toolkit for the CUDA implementation OR
-- AMD Radeon GPU and ROCm for compiling with HIP tools (in fact, this was what I used for development and testing).
+- NVIDIA GPU and CUDA Toolkit for the CUDA implementation **OR** an AMD Radeon GPU and the ROCm toolkit installed for compiling with HIP tools (in fact, this was what I used for development and testing, check the Makefile for details).
 
 ## Usage
 
