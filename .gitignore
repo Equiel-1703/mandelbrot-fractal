@@ -40,3 +40,6 @@
 # Ignore images
 *.bmp
 *.ppm
+
+# Ignore plan b folder
+plan_b/
