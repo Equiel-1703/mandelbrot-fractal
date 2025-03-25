@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+#VSCode stuff
+.vscode/
+
+# HIP files (I'm using them because of the HIPIFY tool)
+*.hip
+
+# Ignore images
+*.bmp
+*.ppm
