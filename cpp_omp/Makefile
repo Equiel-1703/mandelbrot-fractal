@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -std=c++11 -I$(COMMON_DIR) -fopenmp
+CXXFLAGS = -Wall -std=c++17 -I$(COMMON_DIR) -fopenmp
 OBJ_DIR = objs
 COMMON_DIR = ../common
 
