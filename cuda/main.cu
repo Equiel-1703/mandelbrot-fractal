@@ -153,7 +153,7 @@ int main(int argc, char const *argv[])
     img_size = nullptr;
 
     // Output the image (Sequential section)
-    BMP bmp_image("mandelbort.bmp", IMG_SIZE, IMG_SIZE);
+    BMP bmp_image("mandelbrot.bmp", IMG_SIZE, IMG_SIZE);
 
     for (int x = 0; x < IMG_SIZE; x++)
     {
