@@ -151,6 +151,7 @@ int main(int argc, char const *argv[])
     cudaFree(img_size);
     fractals = nullptr;
     img_size = nullptr;
+    std::cout << "== Memory freed successfully from GPU. ==" << std::endl;
 
     // Output the image (Sequential section)
     BMP bmp_image("mandelbrot.bmp", IMG_SIZE, IMG_SIZE);
@@ -182,6 +183,7 @@ int main(int argc, char const *argv[])
 
     // Free CPU memory
     delete[] fractals_cpu;
-    std::cout << "== Memory freed successfully. ==" << std::endl;
+    std::cout << "== Memory freed successfully from CPU. ==" << std::endl;
+    
     return 0;
 }
