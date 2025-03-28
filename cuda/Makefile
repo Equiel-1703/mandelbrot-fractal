@@ -36,3 +36,5 @@ $(OBJ_DIR):
 
 clean:
 	rm -f $(OBJ_DIR)/*.o $(EXECUTABLE)
+	rm -f $(OBJ_DIR)/*
+	rm -f *.bmp
