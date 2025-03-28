@@ -2,6 +2,8 @@
 
 This project contains two parallel implementations of a Mandelbrot fractal generator that outputs the fractal as a BMP image. The implementations were developed as part of my Parallel Computing class and are written in C++ to leverage parallel computing for performance optimization.
 
+![fractal_sample](https://github.com/user-attachments/assets/c8329dc2-6aa4-4bab-bd62-4e2150e8ffa4)
+
 ## Implementations
 
 1. **C++ with OpenMP**  
@@ -19,8 +21,7 @@ This project contains two parallel implementations of a Mandelbrot fractal gener
 ## Requirements
 
 - A C++ compiler with OpenMP support (e.g., GCC or Clang).
-- NVIDIA GPU and CUDA Toolkit for the CUDA implementation OR
-- AMD Radeon GPU and ROCm for compiling with HIP tools (in fact, this was what I used for development and testing).
+- NVIDIA GPU and CUDA Toolkit for the CUDA implementation **OR** an AMD Radeon GPU and the ROCm toolkit installed for compiling with HIP tools (in fact, this was what I used for development and testing, check the Makefile for details).
 
 ## Usage
 
