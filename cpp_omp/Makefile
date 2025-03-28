@@ -25,6 +25,6 @@ $(OBJ_DIR):
 	@mkdir -p $(OBJ_DIR)
 
 clean:
-	rm -f $(OBJ_DIR)/*.o $(EXECUTABLE)
-	rm -f $(OBJ_DIR)/*
+	rm -f $(OBJ_DIR)/*.o
+	rm -f $(EXECUTABLE)
 	rm -f *.bmp
